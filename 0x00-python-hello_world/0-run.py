@@ -1,3 +1,2 @@
 #!/bin/bash
-import os
-PYFILE=os.environ("PYFILE")
+#!/usr/bin/python3
