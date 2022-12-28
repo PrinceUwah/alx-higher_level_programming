@@ -8,13 +8,15 @@ class Square:
     def __init__(self, size=0):
         """Initialize a new class"""
         self.size = size
-        @property
+
+    @property
     def size(self):
         """"
         Getter
         """
         return self.__size
-        @size.setter
+
+    @size.setter
     def size(self, value):
         """
         Setter
